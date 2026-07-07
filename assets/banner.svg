@@ -1,14 +1,14 @@
-<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#071018">
-        <animate attributeName="stop-color" values="#071018;#0B1F14;#071018" dur="8s" repeatCount="indefinite"></animate>
+      <stop offset="0%" stop-color="#020617">
+        <animate attributeName="stop-color" values="#020617;#052e16;#020617" dur="8s" repeatCount="indefinite"></animate>
       </stop>
-      <stop offset="50%" stop-color="#123524">
-        <animate attributeName="stop-color" values="#123524;#1E7F52;#123524" dur="8s" repeatCount="indefinite"></animate>
+      <stop offset="50%" stop-color="#14532d">
+        <animate attributeName="stop-color" values="#14532d;#166534;#14532d" dur="8s" repeatCount="indefinite"></animate>
       </stop>
-      <stop offset="100%" stop-color="#3FCF8E">
-        <animate attributeName="stop-color" values="#3FCF8E;#65F5A7;#3FCF8E" dur="8s" repeatCount="indefinite"></animate>
+      <stop offset="100%" stop-color="#22c55e">
+        <animate attributeName="stop-color" values="#22c55e;#16a34a;#22c55e" dur="8s" repeatCount="indefinite"></animate>
       </stop>
     </linearGradient>
 
@@ -20,38 +20,42 @@
       </feMerge>
     </filter>
 
-    <linearGradient id="waveGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0E1C2F" stop-opacity="0.2"></stop>
-      <stop offset="100%" stop-color="#66FFB2" stop-opacity="0.3"></stop>
-    </linearGradient>
+    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M 35 0 L 0 0 0 35" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"></path>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="260" rx="0" fill="url(#bgGradient)"></rect>
+  <rect width="1200" height="280" fill="url(#bgGradient)"></rect>
+  <rect width="1200" height="280" fill="url(#grid)" opacity="0.5"></rect>
 
-  <circle cx="180" cy="70" r="90" fill="#66FFB2" opacity="0.12">
-    <animate attributeName="cx" values="180;980;180" dur="14s" repeatCount="indefinite"></animate>
+  <circle cx="160" cy="80" r="90" fill="#86efac" opacity="0.13">
+    <animate attributeName="cx" values="160;1040;160" dur="14s" repeatCount="indefinite"></animate>
   </circle>
 
-  <circle cx="1000" cy="180" r="100" fill="#5EEAD4" opacity="0.10">
-    <animate attributeName="cx" values="1000;240;1000" dur="16s" repeatCount="indefinite"></animate>
+  <circle cx="1010" cy="195" r="110" fill="#bbf7d0" opacity="0.10">
+    <animate attributeName="cx" values="1010;180;1010" dur="16s" repeatCount="indefinite"></animate>
   </circle>
 
-  <path fill="url(#waveGradient)" opacity="0.8">
-    <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
-      M0 170 C180 130 350 220 560 180 C760 140 920 210 1200 150 L1200 260 L0 260 Z;
-      M0 150 C200 200 350 120 560 170 C760 220 930 130 1200 180 L1200 260 L0 260 Z;
-      M0 170 C180 130 350 220 560 180 C760 140 920 210 1200 150 L1200 260 L0 260 Z"></animate>
+  <path fill="#020617" opacity="0.45">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite" values="
+      M0 190 C220 140 380 235 610 190 C840 145 980 220 1200 170 L1200 280 L0 280 Z;
+      M0 170 C230 225 390 135 620 185 C850 235 990 145 1200 195 L1200 280 L0 280 Z;
+      M0 190 C220 140 380 235 610 190 C840 145 980 220 1200 170 L1200 280 L0 280 Z"></animate>
   </path>
 
-  <text x="600" y="105" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="58" font-weight="700" fill="#8BFFB8" filter="url(#glow)">
+  <text x="600" y="105" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="58" font-weight="800" fill="#bbf7d0" filter="url(#glow)">
     HOK DO
   </text>
 
-  <text x="600" y="145" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="24" font-weight="500" fill="#E8FFF3">
+  <text x="600" y="150" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="26" font-weight="600" fill="#f0fdf4">
     FULL STACK DEVELOPER
   </text>
 
-  <text x="600" y="182" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="18" fill="#D6FEE8">
-    Flutter • Laravel • JavaScript • PHP • Mobile &amp; Web Development
+  <text x="600" y="190" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="18" fill="#dcfce7">
+    Flutter • Laravel • JavaScript • PHP • MySQL • Firebase • AWS
+  </text>
+
+  <text x="600" y="222" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="16" fill="#bbf7d0">
+    Building clean, modern, and practical digital products
   </text>
 </svg>
