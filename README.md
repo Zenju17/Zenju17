@@ -149,12 +149,27 @@ currently_learning:
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Zenju17&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7CFFB2&icon_color=7CFFB2" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zenju17&theme=tokyonight&hide_border=true&background=0D1117&ring=7CFFB2&fire=7CFFB2&currStreakLabel=7CFFB2" height="170" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=Zenju17&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" 
+    height="170" 
+    alt="Zenju17 GitHub Stats" 
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zenju17&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7CFFB2" height="170" />
+  <img 
+    src="https://github-readme-streak-stats.demolab.com?user=Zenju17&theme=tokyonight&hide_border=true" 
+    height="170" 
+    alt="Zenju17 GitHub Streak" 
+  />
+</p>
+
+<p align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zenju17&layout=compact&theme=tokyonight&hide_border=true" 
+    height="170" 
+    alt="Zenju17 Top Languages" 
+  />
 </p>
 
 ---
@@ -162,7 +177,10 @@ currently_learning:
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Zenju17&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6" />
+  <img 
+    src="https://github-profile-trophy.vercel.app/?username=Zenju17&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&margin-h=15" 
+    alt="Zenju17 GitHub Trophies" 
+  />
 </p>
 
 ---
