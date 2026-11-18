@@ -23,12 +23,12 @@
 
 ## 🚀 About Me
 
-- 🔭 I’m currently working on **web and mobile development projects**
-- 🌱 I’m currently learning **advanced full stack development, cloud tools, and scalable app structure**
+- 🔭 I’m currently working on **JolWork, Luma Haven, and collaborative product projects**
+- 🌱 I’m currently learning **scalable monorepo architecture, cloud deployment, and production-ready APIs**
 - 💻 I enjoy building **clean, modern, practical, and user-friendly digital products**
-- 📱 Interested in **Flutter, Laravel, frontend UI/UX, backend APIs, and database systems**
+- 📱 Interested in **Flutter, Vue, Next.js, Laravel, Django, backend APIs, and database systems**
 - 🧠 I like solving problems with **good design, clean code, and strong backend logic**
-- ⚡ Fun fact: I enjoy turning ideas into real applications
+- ⚡ Fun fact: I enjoy turning academic ideas and real-world workflows into working applications
 
 ---
 
@@ -46,6 +46,7 @@
 - Mobile-friendly design
 - Smooth user experience
 - Clean visual design
+- Vue, Next.js, and Flutter interfaces
 
 </td>
 <td width="50%">
@@ -58,6 +59,7 @@
 - Business logic
 - CRUD systems
 - Scalable structure
+- Geofencing, dashboards, and role-based workflows
 
 </td>
 </tr>
@@ -75,26 +77,36 @@ location: Phnom Penh, Cambodia
 
 code:
   - JavaScript
+  - TypeScript
   - PHP
   - Dart
-  - C#
   - Python
+  - SQL
+  - C#
 
 frontend:
   - HTML
   - CSS
   - JavaScript
+  - Vue
+  - Next.js
   - Flutter
 
 backend:
+  - NestJS
+  - Django
   - Laravel
   - PHP
-  - Firebase
+  - Express
   - REST API
 
 database:
+  - PostgreSQL
   - MySQL
   - Oracle
+  - Firebase
+  - Supabase
+  - Redis
 
 tools:
   - Git
@@ -103,21 +115,25 @@ tools:
   - Android Studio
   - Postman
   - DBeaver
+  - Docker
+  - AWS
+  - Vercel
 
 focus:
   - Full Stack Development
   - Mobile App Development
   - API Development
   - UI/UX Design
-  - Academic Projects
-  - Personal Projects
+  - Workforce & Hospitality Systems
+  - E-Commerce Platforms
+  - Cloud Deployment
 
 currently_learning:
-  - Advanced Flutter UI
-  - Laravel API Best Practices
-  - Cloud & Deployment
-  - Clean Project Architecture
-  - AWS Fundamentals
+  - Production monorepo architecture
+  - Geospatial attendance systems
+  - Decision-support dashboards
+  - Cloud infrastructure and deployment
+  - Clean project architecture
 ```
 
 ---
@@ -125,7 +141,7 @@ currently_learning:
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,php,laravel,dart,flutter,python,cs,mysql,firebase,git,github,vscode,androidstudio,postman" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,vue,nextjs,php,laravel,nestjs,dart,flutter,python,django,postgres,mysql,oracle,firebase,supabase,redis,docker,aws,vercel,git,github,vscode,androidstudio,postman" />
 </p>
 
 ---
@@ -136,12 +152,21 @@ currently_learning:
   <img src="https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26" />
   <img src="https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6" />
   <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6" />
+  <img src="https://img.shields.io/badge/Vue.js-111827?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" />
+  <img src="https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" />
   <img src="https://img.shields.io/badge/PHP-111827?style=for-the-badge&logo=php&logoColor=777BB4" />
   <img src="https://img.shields.io/badge/Laravel-111827?style=for-the-badge&logo=laravel&logoColor=FF2D20" />
+  <img src="https://img.shields.io/badge/NestJS-111827?style=for-the-badge&logo=nestjs&logoColor=E0234E" />
   <img src="https://img.shields.io/badge/Flutter-111827?style=for-the-badge&logo=flutter&logoColor=02569B" />
   <img src="https://img.shields.io/badge/Dart-111827?style=for-the-badge&logo=dart&logoColor=0175C2" />
+  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB" />
+  <img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
   <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=4479A1" />
+  <img src="https://img.shields.io/badge/Oracle-111827?style=for-the-badge&logo=oracle&logoColor=F80000" />
   <img src="https://img.shields.io/badge/Firebase-111827?style=for-the-badge&logo=firebase&logoColor=FFCA28" />
+  <img src="https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED" />
+  <img src="https://img.shields.io/badge/AWS-111827?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" />
 </p>
 
 ---
@@ -241,22 +266,30 @@ I design database structures for real-world projects and academic systems.
 
 | Project | Description | Tech Stack |
 |---|---|---|
-| **Hun Fashion** | Full stack fashion e-commerce mobile application | Flutter, Laravel, MySQL/Oracle |
-| **Spin Wheel Game** | Event prize wheel game with prize tracking | HTML, CSS, JavaScript, Firebase |
-| **Scaleshop** | Web project with cloud deployment practice | JavaScript, AWS |
-| **Laravel Admin Dashboard** | Backend dashboard for managing app data | Laravel, PHP, MySQL |
+| [**JolWork**](https://github.com/Zenju17/JolWork) | Workforce management and geofenced attendance monorepo | NestJS, Next.js, Flutter, PostgreSQL, Redis |
+| [**Luma Haven**](https://github.com/Zenju17/Luma-Haven) | Hotel reservation, operations, and management information system | Django, Vue, PostgreSQL, Celery, Redis |
+| [**Hun Fashion**](https://github.com/Zenju17/hun-fashion-ecommerce) | Fashion retail e-commerce platform with mobile app and admin dashboard | Flutter, Laravel, MySQL, Firebase |
+| [**Fashion Store App**](https://github.com/Zenju17/E-Commerce-Fashion-App) | Full-stack fashion shopping application | Flutter, Laravel, Oracle |
+| [**Spin Wheel**](https://github.com/Zenju17/spinwheel) | Event prize wheel with limits, history, and admin controls | HTML, CSS, JavaScript, Firebase |
+| [**ScaleShop**](https://github.com/Zenju17/scaleshop) | E-commerce demo for AWS auto-scaling practice | Node.js, Express, PostgreSQL, AWS |
+| [**BELTEI Book Store**](https://github.com/Zenju17/biu1_bookstore) | University course-bookstore mobile application | Flutter, Dart, SQLite |
+| [**MindEase Frontend**](https://github.com/Zenju17/MindEase-FrontEnd_Copy) | Frontend testing and deployment copy for a mental wellness platform | Vue, JavaScript, CSS |
+| [**Morrow-Tech**](https://github.com/Rithy7799/Morrow-Tech) | Collaborative web application project | Python, JavaScript, HTML, CSS |
+| [**CamboBid**](https://github.com/rickyinnitdev/CamboBid) | Collaborative live auction and bidding platform | Vue, TypeScript, Supabase, Vercel |
+| [**Botum Mobile App**](https://github.com/thebdey/Botum-mobile-app) | Collaborative marketplace for authentic Khmer handmade souvenirs | Flutter, Dart |
+| [**Tic-Tac-Toe Game**](https://github.com/OdomCH/Tic-tac-toe-Game-) | Collaborative browser game project | JavaScript, HTML, CSS, Python |
 
 ---
 
 ## 🧭 Current Developer Roadmap
 
 ```text
-Frontend UI  █████████░  90%
-Flutter App  ████████░░  80%
-Laravel API  ████████░░  80%
-Database     ███████░░░  70%
-Cloud & AWS  ██████░░░░  60%
-Clean Code   ████████░░  80%
+Frontend UI       █████████░  90%
+Flutter Apps      ████████░░  80%
+Backend APIs      ████████░░  80%
+Database Systems  ████████░░  80%
+Cloud Deployment  ██████░░░░  60%
+Clean Architecture ████████░░ 80%
 ```
 
 ---
